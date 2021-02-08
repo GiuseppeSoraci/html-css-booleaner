@@ -1,0 +1,129 @@
+/* GENERAL */
+.general {
+  padding-left: 150px;
+  padding-right: 250px;
+}
+
+/* LOGO AND BANNER */
+header {
+  height: 120px;
+  width: 100%;
+  background-color: dodgerblue;
+  background-image: url('./img/pattern.png');
+  background-position: top;
+  position: relative;
+}
+
+#logo {
+  width: 250px;
+  position: absolute;
+  top: 50px;
+}
+
+/* PARAGRAPH AND LIST */
+#titlefont {
+  font-size: 47px;
+  margin-bottom: 2px;
+}
+
+#writtenby {
+color: grey;
+position: relative;
+margin-bottom: 20px;
+}
+
+#theb {
+  color: dodgerblue;
+  display: inline-block;
+}
+
+/* ARTICLE PHOTOS */
+.photo {
+   position: relative;
+}
+
+p {
+  margin-top: 2px;
+}
+
+/* PARAGRAPH AND LIST */
+.yellow {
+   background-color: yellow;
+   background-size: cover;
+  }
+
+#list {
+    padding-left: 20px;
+  }
+
+/*TABLE*/
+table {
+  margin: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: auto;
+}
+
+th {
+  background-color: dodgerblue;
+  color: white;
+  text-align: left;
+}
+
+.sky {
+  background-color: lightblue;
+  ;
+}
+
+td {
+  width: 150px;
+
+}
+
+#colonna {
+  width: 50%
+}
+
+/* ADVERTISING PHOTOS */
+#adv {
+  color: grey;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+}
+#monitor {
+  display: block;
+}
+
+#graph {
+  display: block;
+}
+
+#photo1 {
+  background-image: url("img/monitor.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50px;
+  color: white;
+  text-align: center;
+
+}
+
+#photo2 {
+  background-image: url("img/graph.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 195px;
+  color: white;
+  text-align: center;
+}
+
+.advertising {
+  position: relative;
+}
